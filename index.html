@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Title of the document</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="js/functions.js"></script>
+   </head>
+   <body>
+      <nav>
+         <div class="logo">Logo</div>
+         <ul id="main-menu">
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+         </ul>
+         <div id="mobile-menu-wrapper">
+            <div class="mobile-menu-icon"></div>
+            <div class="mobile-menu-icon"></div>
+            <div class="mobile-menu-icon"></div>
+         </div>
+         <div id="button-container">
+            <button class="button" onclick="toggleProfile()">Profile John Doe</button>
+            <div id="profile-menu" style="display:none">
+               <ul>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li class="no-border"><a href="#">Sign Out</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </body>
+</html>
